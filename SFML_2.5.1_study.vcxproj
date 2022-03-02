@@ -151,7 +151,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Window01.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="openal32.dll" />
