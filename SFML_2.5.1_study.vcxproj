@@ -151,7 +151,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="source\Window01.cpp" />
+    <ClCompile Include="source\Window01.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="source\Window02.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="openal32.dll" />

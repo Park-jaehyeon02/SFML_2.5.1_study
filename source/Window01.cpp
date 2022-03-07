@@ -22,7 +22,6 @@ int main()
             // 윈도우 창이 닫히는 이벤트가 발생하면 윈도우 창을 닫는다.
             if (event.type == sf::Event::Closed)
                 window.close();
-            
         
         }
     }
